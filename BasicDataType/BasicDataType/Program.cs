@@ -26,6 +26,13 @@ namespace BasicDataType
             float g = 8.4f;
             Console.WriteLine("f = {0} and g={1}", f, g);
 
+            int num1 = 10;
+            int num2 = 15;
+
+            Console.WriteLine("Addition is :"+ (num1 + num2));
+            Console.WriteLine("Subtraction is : {0}", (num1 - num2));
+            Console.WriteLine("Division is :" + (num1 / num2));
+            Console.WriteLine("Multiplication is : {0}", (num1 * num2));
 
 
 
