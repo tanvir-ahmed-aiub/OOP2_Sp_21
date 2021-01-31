@@ -1,0 +1,7 @@
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\bin\Debug\BasicDataType.exe.config
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\bin\Debug\BasicDataType.exe
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\bin\Debug\BasicDataType.pdb
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\obj\Debug\BasicDataType.csprojAssemblyReference.cache
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\obj\Debug\BasicDataType.csproj.CoreCompileInputs.cache
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\obj\Debug\BasicDataType.exe
+F:\Teaching\OOP2 Spring 20-21\H\BasicDataType\BasicDataType\obj\Debug\BasicDataType.pdb
