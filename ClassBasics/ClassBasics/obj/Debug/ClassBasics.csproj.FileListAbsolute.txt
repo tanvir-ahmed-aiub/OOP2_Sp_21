@@ -1,0 +1,7 @@
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\bin\Debug\ClassBasics.exe.config
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\bin\Debug\ClassBasics.exe
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\bin\Debug\ClassBasics.pdb
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\obj\Debug\ClassBasics.csprojAssemblyReference.cache
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\obj\Debug\ClassBasics.csproj.CoreCompileInputs.cache
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\obj\Debug\ClassBasics.exe
+F:\Teaching\OOP2 Spring 20-21\H\ClassBasics\ClassBasics\obj\Debug\ClassBasics.pdb
