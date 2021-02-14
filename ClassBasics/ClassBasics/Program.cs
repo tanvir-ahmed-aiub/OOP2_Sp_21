@@ -11,6 +11,7 @@ namespace ClassBasics2
     {
         static void Main(string[] args)
         {
+
             Student s1 = new Student();
             Student s2 = new Student("Tanvir Ahmed", "1010110", 2.5F);
             s2.Name = "Sabbir";
