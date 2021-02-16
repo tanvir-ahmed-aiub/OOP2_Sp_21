@@ -64,6 +64,17 @@ namespace Array
                 Console.WriteLine();
             }
 
+            for (int i = 0; i < arr.Length; i++) {
+                Console.WriteLine(arr[i]);
+            }
+            
+            var ij=89;
+            ij = 13;
+
+            foreach (int i in arr) {
+                Console.WriteLine(i);
+            }
+
         }
         
     }   
