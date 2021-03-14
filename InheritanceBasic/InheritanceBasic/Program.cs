@@ -10,10 +10,11 @@ namespace InheritanceBasic
     {
         static void Main(string[] args)
         {
-            Student s1 = new Student("Tanvir Ahmed", "Nazim Uddin", "10-01-2021");
-            s1.ShowInfo();
+            Student s1 = new Student();
+            //Student s1 = new Student("Tanvir Ahmed", "Nazim Uddin", "10-01-2021");
+            /*s1.ShowInfo();
             Teacher t1 = new Teacher("Tanvir Ahmed", "Nazim Uddin", "10-01-2021", 10000);
-            t1.ShowInfo();
+            t1.ShowInfo();*/
         }
     }
 }
