@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccountClass
 {
-    class Account
+    abstract class Account
     {
         public string AccName { get; set; }
         public string AccNo { get; }
@@ -25,9 +25,7 @@ namespace AccountClass
         public void Deposit(double amount) {
             Balance += amount; 
         }
-        virtual public void Withdraw(double amount){
-
-        }
+        abstract public void Withdraw(double amount);
         virtual public void Transfer(Account a, double amount) {
             
         }

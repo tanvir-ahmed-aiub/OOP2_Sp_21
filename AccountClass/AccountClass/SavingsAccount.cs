@@ -17,9 +17,10 @@ namespace AccountClass
             if (Balance - amount >= 500)
             {
                 Balance -= amount;
-                Console.WriteLine("Your acc is debited by {0} to self",amount);
+                Console.WriteLine("Your acc is debited by {0} to self", amount);
             }
-            else {
+            else
+            {
                 Console.WriteLine("insufficient balance");
             }
         }
