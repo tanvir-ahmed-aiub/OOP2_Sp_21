@@ -36,12 +36,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(233, 218);
+            this.btnLogin.Location = new System.Drawing.Point(174, 212);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(105, 36);
             this.btnLogin.TabIndex = 11;
@@ -52,7 +54,7 @@
             // tbpassword
             // 
             this.tbpassword.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpassword.Location = new System.Drawing.Point(181, 162);
+            this.tbpassword.Location = new System.Drawing.Point(122, 156);
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.Size = new System.Drawing.Size(157, 36);
             this.tbpassword.TabIndex = 10;
@@ -61,7 +63,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(62, 168);
+            this.label3.Location = new System.Drawing.Point(3, 162);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 25);
             this.label3.TabIndex = 9;
@@ -70,7 +72,7 @@
             // tbUname
             // 
             this.tbUname.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbUname.Location = new System.Drawing.Point(181, 110);
+            this.tbUname.Location = new System.Drawing.Point(122, 104);
             this.tbUname.Name = "tbUname";
             this.tbUname.Size = new System.Drawing.Size(157, 36);
             this.tbUname.TabIndex = 8;
@@ -79,7 +81,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 116);
+            this.label2.Location = new System.Drawing.Point(3, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 25);
             this.label2.TabIndex = 7;
@@ -89,7 +91,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 3);
+            this.label1.Location = new System.Drawing.Point(108, -3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 28);
             this.label1.TabIndex = 6;
@@ -98,7 +100,7 @@
             // tbname
             // 
             this.tbname.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbname.Location = new System.Drawing.Point(181, 49);
+            this.tbname.Location = new System.Drawing.Point(122, 43);
             this.tbname.Name = "tbname";
             this.tbname.Size = new System.Drawing.Size(157, 36);
             this.tbname.TabIndex = 13;
@@ -107,29 +109,38 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(62, 55);
+            this.label4.Location = new System.Drawing.Point(3, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 25);
             this.label4.TabIndex = 12;
             this.label4.Text = "Name";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.tbpassword);
+            this.panel1.Controls.Add(this.tbname);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnLogin);
+            this.panel1.Controls.Add(this.tbUname);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(300, 264);
+            this.panel1.TabIndex = 14;
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 314);
-            this.Controls.Add(this.tbname);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.tbpassword);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.tbUname);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(571, 481);
+            this.Controls.Add(this.panel1);
             this.Name = "Registration";
             this.Text = "Registration";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -143,5 +154,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbname;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel1;
     }
 }
